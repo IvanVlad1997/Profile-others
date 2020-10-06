@@ -1,14 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
 import ComponentProba1 from './components/Component1/ComponentProba1';
 import ClassComponent from './components/Component1/ClassComponent';
 import Piano from './pages/Piano/Piano'
+import CV from './pages/CV/CV'
 
-function App() {
+const App= () => {
   return (
-    <div className="app-container">
-    <Piano />
+    <div>
+       <CV />
+    
     </div>
   );
 }

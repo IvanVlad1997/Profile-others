@@ -57,6 +57,7 @@ const Piano = () => {
   };
 
   return (
+    <div className="app-container">
     <div className="piano-container">
       <Instrument
         instrumentName={"acoustic_grand_piano"}
@@ -102,6 +103,7 @@ const Piano = () => {
           A: "B5"
         }}
       />
+    </div>
     </div>
   );
 };
